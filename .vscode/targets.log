@@ -1,0 +1,446 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Wed Aug 17 15:55:20 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 11)
+PYTEST_COVERAGE_OPTIONS = --cov=$(LIBRARY_DIRS)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/cristiano.maciel/Documents/GitHub/bookstore
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"dc7ba51c4efcfec965eaa07de065afd6.pt-br","_translationsConfigFile":"/Users/cristiano.maciel/Library/Application Support/Code/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br/tcf.json","_cacheRoot":"/Users/cristiano.maciel/Library/Application Support/Code/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br","_resolvedLanguagePackCoreLocation":"/Users/cristiano.maciel/Library/Application Support/Code/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/Users/cristiano.maciel/Library/Application Support/Code/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 25)
+PIP = pip3
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/puppetlabs/bin:/usr/local/share/dotnet:/usr/local/munki:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.i5LRs9qsxY/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/cristiano.maciel/Documents/GitHub/bookstore
+# makefile (from `Makefile', line 32)
+COLOR_RESET = \033[0m
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# makefile (from `Makefile', line 4)
+LIBRARY_DIRS = mylibrary
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/cristiano.maciel
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/cristiano.maciel/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = cristiano.maciel
+# makefile (from `Makefile', line 2)
+PYTHON_VERSION = 3.8.10
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 20)
+PYENV_VERSION_DIR = $(HOME)/.pyenv/versions/$(PYTHON_VERSION)
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from `Makefile', line 29)
+RUN_PYPKG_BIN = $(POETRY) run
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 10)
+PYTEST_TAP_OPTIONS = --tap-combined --tap-outdir $(BUILD_DIR)
+# makefile (from `Makefile', line 6)
+BUILD_DIR = build
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = cristiano.maciel
+# makefile
+.DEFAULT_GOAL := help
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 15)
+MYPY_OPTS = --python-version $(basename $(PYTHON_VERSION)) --show-column-numbers --pretty --html-report $(BUILD_DIR)/mypy
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/sg/1yjspml16fj8zzkl6qc7mhn40000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/cristiano.maciel/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.54288296.54288305
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 9)
+PYTEST_HTML_OPTIONS = --html=$(BUILD_DIR)/report.html --self-contained-html
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x47
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 17)
+PYTHON_VERSION_FILE = .python-version
+# makefile (from `Makefile', line 31)
+COLOR_ORANGE = \033[33m
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 12)
+PYTEST_OPTIONS = $(PYTEST_HTML_OPTIONS) $(PYTEST_TAP_OPTIONS) $(PYTEST_COVERAGE_OPTIONS)
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 27)
+POETRY_OPTS = 
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 28)
+POETRY = poetry $(POETRY_OPTS)
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2018
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=2/121=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 55859275): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+pyproject.toml:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-py-black:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 106):
+	$(RUN_PYPKG_BIN) black --check --line-length 118 --fast .
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: help version-python test build publish deps-py-update deps deps-brew deps-py check check-py check-py-flake8 check-py-black check-py-mypy format-py format-autopep8 format-isort migrate seed
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+deps: deps-brew deps-py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-17 15:53:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 48):
+	$(RUN_PYPKG_BIN) pytest \
+	$(PYTEST_OPTIONS) \
+	tests/*.py
+	
+
+.python-version: /Users/cristiano.maciel/.pyenv/versions/3.8.10
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 71):
+	pyenv local $(PYTHON_VERSION)
+	
+
+deps-py: .python-version
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 84):
+	$(PIP) install --upgrade \
+	--index-url $(PYPI_PROXY) \
+	pip
+	$(PIP) install --upgrade \
+	--index-url $(PYPI_PROXY) \
+	poetry
+	$(POETRY) install
+	
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 56):
+	$(POETRY) build
+	
+
+# Not a target:
+Brewfile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/cristiano.maciel/.pyenv/versions/3.8.10:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 69):
+	pyenv install --skip-existing $(PYTHON_VERSION)
+	
+
+seed:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 130):
+	poetry run python manage.py seed
+	
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 38):
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m\033[0m\n"} /^[a-zA-Z0-9_-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
+	
+
+migrate:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 126):
+	docker-compose exec web python manage.py migrate --noinput
+	
+
+check-py-flake8:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 102):
+	$(RUN_PYPKG_BIN) flake8 .
+	
+
+version-python:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 42):
+	@echo $(PYTHON_VERSION)
+	
+
+check-py-mypy:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 110):
+	$(RUN_PYPKG_BIN) mypy $(MYPY_OPTS) $(LIBRARY_DIRS)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+publish:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 60):
+	$(POETRY) publish $(POETRY_PUBLISH_OPTIONS_SET_BY_CI_ENV)
+	
+
+format-py:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 114):
+	$(RUN_PYPKG_BIN) black .
+	
+
+format-isort:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 122):
+	$(RUN_PYPKG_BIN) isort --recursive .
+	
+
+deps-py-update: pyproject.toml
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 64):
+	$(POETRY) update
+	
+
+format-autopep8:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 118):
+	$(RUN_PYPKG_BIN) autopep8 --in-place --recursive .
+	
+
+check: check-py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+check-py: check-py-flake8 check-py-black check-py-mypy
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+deps-brew: Brewfile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 78):
+	brew bundle --file=Brewfile
+	@echo "$(COLOR_ORANGE)Ensure that pyenv is setup in your shell.$(COLOR_RESET)"
+	@echo "$(COLOR_ORANGE)It should have something like 'eval \$$(pyenv init -)'$(COLOR_RESET)"
+	
+
+# files hash-table stats:
+# Load=28/1024=3%, Rehash=0, Collisions=5/87=6%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Aug 17 15:55:20 2022
+
+ 
