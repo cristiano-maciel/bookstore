@@ -3,7 +3,7 @@ name: Push Container to Heroku
 on:
   push:
     branches:
-      - 'Heroku2'
+      - 'feat-format-string-models'
 
 jobs:
   heroku-deploy:
@@ -44,4 +44,4 @@ jobs:
         env:
           HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
       - name: Push to Heroku
-        run: git push heroku Heroku2:main
+        run: git push heroku feat-format-string-models:main
